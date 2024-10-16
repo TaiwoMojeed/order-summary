@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;  
+    font-family: "Red Hat Display", sans-serif;  
+}
+.img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.pic {
+    width: 100%;
+}
+.content {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+
+}
+.h3 {
+    text-align: center;
+    margin: 20px auto;
+}
+.para {
+    text-align: center;
+    margin: 20px auto;
+    color: hsl(225, 100%, 98%);
+}
+.para2 {
+    color: hsl(224, 23%, 55%);
+}
+.cancel-order {
+    color: hsl(224, 23%, 55%);
+    margin: 12px auto;
+}
+.btn {
+    border: none;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    background-color: hsl(225, 100%, 98%);
+}
+.container {
+    width: 300px;
+    margin: 54px auto;
+    
+}
+.join {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.lower-content {
+    padding:2px 19px;
+}
